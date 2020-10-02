@@ -2,7 +2,7 @@ Package: getable
 Type: Package
 Title: Fetching Tabular Data "Onload" in Compiled R Markdown HTML
         Documents
-Version: 1.0.2
+Version: 1.0.3
 Authors@R: 
     person(given = "Yongfu", 
            family = "Liao",
@@ -18,12 +18,13 @@ Depends: R (>= 3.4.0)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Suggests: jsonlite, rmarkdown, knitr
+Suggests: jsonlite, rmarkdown
 RoxygenNote: 7.1.1
 VignetteBuilder: knitr
+Imports: knitr
 NeedsCompilation: no
-Packaged: 2020-08-25 23:49:36 UTC; liao
+Packaged: 2020-10-02 13:31:40 UTC; liao
 Author: Yongfu Liao [aut, cre] (<https://orcid.org/0000-0002-1814-2993>)
 Maintainer: Yongfu Liao <liao961120@gmail.com>
 Repository: CRAN
-Date/Publication: 2020-08-31 08:30:07 UTC
+Date/Publication: 2020-10-02 13:42:06 UTC
